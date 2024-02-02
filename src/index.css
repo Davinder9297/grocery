@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+body::-webkit-scrollbar{
+  width: 5px;
+  background-color: rgb(238, 211, 162);
+}
+.store::-webkit-scrollbar{
+  width: 0px;
+  /* background-color: rgb(238, 211, 162); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.veg{
+  background-image: url('../public/veg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nonveg{
+  background-image: url('../public/nonveg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fruits{
+  background-image: url('../public/fruits.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dairy{
+  background-image: url('../public/dairy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-area{
+  padding: 40px 0px;
+  /* background-color: #2874f0; */
+  color: black;
+}
+.footer-area a{
+  text-decoration: none;
+}
+.footer-area .footer-heading{
+  font-size: 24px;
+  color: black;
+}
+.footer-area .footer-underline{
+  height: 1px;
+  width: 70px;
+  background-color: black;
+  margin: 10px 0px;
+}
+.copyright-area{
+  padding: 14px 0px;
+  background-color: #262626;
+  text-align: center;
+}
+.copyright-area p{
+  margin-bottom: 0px;
+  color: white;
+  /* text-align: center; */
+
+}
+.copyright-area .social-media{
+  text-align: end;
+  color: white;
+}
+.copyright-area .social-media a{
+  margin: 0px 10px;
+  color: white;
+  width: 20px;
+}
